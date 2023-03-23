@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="selling.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
+                  class="food-munch-logo"
+                />
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link active" id="navItem1" href="#wcuSection">
+                    Why Choose Us?
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                  <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+                  <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+            <div class="text-center">
+              <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+              <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+              <button class="custom-button" onclick="display('exploreMenuSection')">View Menu</button>
+    
+            </div>
+        </div>
+        <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="menu-section-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="shadow menu-item-card p-3 mb-3">
+                    <img
+                      src="https://as1.ftcdn.net/v2/jpg/03/34/25/44/1000_F_334254435_QHiv3iDQDSX5cyZXblyslmuymrom8XeO.jpg"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Mirror Crap</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="shadow menu-item-card p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/free-photo/carp_23-2148167311.jpg?w=996&t=st=1679550681~exp=1679551281~hmac=7c1babdbdb06841ebc29e72529ba2864be03a98b17f690e8dcdf53234a2032eb"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Jilebi</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/premium-photo/beautifull-colisa-my-aquarium_326132-910.jpg?w=900"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Pulasa</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/free-photo/closeup-shot-small-silver-grey-fish-aquarium_181624-22697.jpg?w=996&t=st=1679551467~exp=1679552067~hmac=002218700e9d5655ed2bc90789f67c2fca5f88778fd5ec84299ed1446500cbe8"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Gold Fish</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/premium-photo/barbus-gold-fish-dark-aquarium-yellow-orange_102332-3457.jpg?w=996"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Gudisa</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/premium-photo/scleropages-jardini-floats-among-algae-corals-large-shiny-pink-fish_102332-2403.jpg?w=996"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Sora</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/free-photo/close-up-focused-betta-fish-green-blurred-background_23-2148359878.jpg?w=996&t=st=1679550876~exp=1679551476~hmac=d5850aea127ebf39ca3189a67028fa9308c604047dd4560464ae629d17beff09"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Nelangi</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="menu-item-card shadow p-3 mb-3">
+                    <img
+                      src="https://img.freepik.com/premium-photo/head-fresh-raw-fish-mullet-black-background_78677-1203.jpg?w=996"
+                      class="menu-item-image w-100"
+                    />
+                    <h1 class="menu-card-title">Koramenu</h1>
+                    <a href="" class="menu-item-link">
+                      View All
+                      <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+    </body>
+</html>
